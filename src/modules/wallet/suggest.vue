@@ -223,5 +223,12 @@ function suggest() {
         submit these parameters to enable Keplr/Metamask Snap.
       </div>
     </div>
+
+    <AdBanner
+      id="suggest-banner-ad"
+      unit="banner"
+      width="970px"
+      height="90px"
+    />
   </div>
 </template>
