@@ -117,8 +117,6 @@ onMounted(() => {
                 Tokens</button>
         </div>
 
-        <AdBanner id="home-banner-ad" unit="banner" />
-
         <div class="bg-base-100 my-5 px-4 pt-3 pb-4 rounded shadow">
             <h2 class="card-title">Enable Faucet</h2>
             <div class="mt-4">
@@ -160,7 +158,6 @@ onMounted(() => {
                 </div>
                 <p class="py-2">
                 <div>
-                    <AdBanner id="popup-ad" unit="popup" />
                 </div>
                 </p>
             </div>

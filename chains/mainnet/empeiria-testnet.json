@@ -1,14 +1,14 @@
 {
-  "chain_name": "0g-testnet",
+  "chain_name": "empeiria-testnet",
   "api": [
     {
-      "address": "https://api-testnet.zero-gravity.nomind.tech",
+      "address": "https://api-testnet.empeiria.nomind.tech",
       "provider": "0xNomind"
     }
   ],
   "rpc": [
     {
-      "address": "https://rpc-testnet.zero-gravity.nomind.tech",
+      "address": "https://rpc-testnet.empeiria.nomind.tech",
       "provider": "0xNomind"
     }
   ],
@@ -17,15 +17,15 @@
   "sdk_version": "0.47.1",
   "coin_type": "118",
   "min_tx_fee": "500",
-  "addr_prefix": "0g",
-  "logo": "/logos/0G.png",
+  "addr_prefix": "empe",
+  "logo": "/logos/empeiria.png",
   "assets": [
     {
-      "base": "ua0gi",
-      "symbol": "A0GI",
+      "base": "uempe",
+      "symbol": "EMPE",
       "exponent": "6",
       "coingecko_id": "",
-      "logo": "/logos/0G.png"
+      "logo": "/logos/empeiria.png"
     }
   ]
 }
