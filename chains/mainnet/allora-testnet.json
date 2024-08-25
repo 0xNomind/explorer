@@ -1,7 +1,17 @@
 {
   "chain_name": "allora-testnet",
-  "api": ["https://allora-api.testnet-1.testnet.allora.network/"],
-  "rpc": ["https://allora-rpc.testnet-1.testnet.allora.network/"],
+  "api": [
+    {
+      "address": "https://api-testnet.allora.nomind.tech",
+      "provider": "0xNomind"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc-testnet.allora.nomind.tech",
+      "provider": "0xNomind"
+    }
+  ],
   "coingecko": "",
   "snapshot_provider": "",
   "sdk_version": "0.47.1",
